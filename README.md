@@ -39,3 +39,5 @@ So, we successed!
 2. we want to run test_accuracy_gpuTrain_and_cpuTest.py
 
 ![image](https://user-images.githubusercontent.com/98302212/153443218-8bb5c8e2-f878-4e73-83dc-2ad9f5af03bf.png)
+
+So, we successed!
