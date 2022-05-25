@@ -1,17 +1,19 @@
 # LeNet-5-Pytorch-master-CIFAR10
 Hello World! This is my first code for GitHub! And It's called LeNet-5-Pytorch-master-CIFAR10 by me! Although this code is so simple, I wrote it seriously!
 
-And, there are some my Chinese communication websites such as CSDN and Quora(Chinese)-Zhihu where I explain this code. 
+This is just a demo of how CNN (Convolutional Neural Network) can be trained and evaluated, and there are some my Chinese communication websites such as CSDN and Quora(Chinese)-Zhihu where I explain this code. 
 
-CSDN:https://blog.csdn.net/XiaoyYidiaodiao/article/details/122720320?spm=1001.2014.3001.5501
+[CSDN](https://blog.csdn.net/XiaoyYidiaodiao/article/details/122720320?spm=1001.2014.3001.5501)
 
-Quora(Chinese)-Zhihu:https://zhuanlan.zhihu.com/p/463827403
+[Quora(Chinese)-Zhihu](https://zhuanlan.zhihu.com/p/463827403)
+
+- - -
 
 We can see from the project directory above that our project can use both GPU training models and CPU training models.
 And, we can test model by GPU and CPU, or GPU training and CPU testing.
 
 |File Name   |      explanation      |      PS       | 
-|------------|:---------------------:|---------------|
+|:----------:|:---------------------:|:-------------:|
 |train_CPU.py  | CPU training models |                                                                 |
 |train_GPU.py  | GPU training models | device = torch.device("cuda") , model = model.to(device=device) |
 |train_GPU_1.py| GPU training models |                        model = model.cuda()                     |
@@ -21,9 +23,11 @@ And, we can test model by GPU and CPU, or GPU training and CPU testing.
 |test_verify_CPU.py              |   CPU testing models |     classification             |
 |test_verify_gpuTrain_and_cpuTest.py|   GPU training models and CPU testing models |     classification             |
 
+- - -
+
 If we want to run xx.py, we will use the following code:
 
-> python xx.py
+`python xx.py`
 
 for example:
 
@@ -32,7 +36,7 @@ we choose the following picture to test
 ![image](https://user-images.githubusercontent.com/98302212/153441623-267d9742-c09c-4006-9eba-2cb117cb1543.png)
 
 
-1. we want to run test_verify_gpuTrain_and_cpuTest.py
+1.we want to run test_verify_gpuTrain_and_cpuTest.py
 
 ![image](https://user-images.githubusercontent.com/98302212/153442228-f52c5575-f318-46ef-897f-72dc76af93c8.png)
 
@@ -41,7 +45,11 @@ we choose the following picture to test
 
 So, we successed!
 
-2. we want to run test_accuracy_gpuTrain_and_cpuTest.py
+2.we want to run test_accuracy_gpuTrain_and_cpuTest.py
+
+`python test_accuracy_gpuTrain_and_cpuTest.py`
+|AP|61.19|
+|:-:|:--:|
 
 ![image](https://user-images.githubusercontent.com/98302212/153443218-8bb5c8e2-f878-4e73-83dc-2ad9f5af03bf.png)
 
