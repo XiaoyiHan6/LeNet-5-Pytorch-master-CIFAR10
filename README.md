@@ -7,6 +7,8 @@ This is just a demo of how CNN (Convolutional Neural Network) can be trained and
 
 [Quora(Chinese)-Zhihu](https://zhuanlan.zhihu.com/p/463827403)
 
+You should create your own data(dataset) and tenshorboard(loss visualization) file package
+
 - - -
 
 We can see from the project directory above that our project can use both GPU training models and CPU training models.
