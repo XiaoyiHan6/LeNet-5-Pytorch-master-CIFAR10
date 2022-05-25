@@ -7,7 +7,7 @@ This is just a demo of how CNN (Convolutional Neural Network) can be trained and
 
 [Quora(Chinese)-Zhihu](https://zhuanlan.zhihu.com/p/463827403)
 
-You should create your own data(dataset) and tenshorboard(loss visualization) file package
+You should create your own data(dataset) and tenshorboard(loss visualization) file package.
 
 - - -
 
