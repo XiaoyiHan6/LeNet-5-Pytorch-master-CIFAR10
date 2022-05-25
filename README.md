@@ -29,7 +29,7 @@ And, we can test model by GPU and CPU, or GPU training and CPU testing.
 
 If we want to run xx.py, we will use the following code:
 
-`python xx.py`
+`python train_XXX.py or test_XXXX.py`
 
 for example:
 
